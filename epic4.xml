@@ -1,0 +1,14 @@
+<Module>
+<ModulePrefs title=""/>
+<Content type="html">
+<![CDATA[ 
+  <p>hi</p>
+  <script>
+    alert("Well hello there");
+    document.querySelector("p").addEventListener("click", () => {
+      alert("wow");
+    });
+   </script>
+]]>
+</Content>
+</Module>
